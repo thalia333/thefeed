@@ -1,0 +1,294 @@
+body{
+    background-color: pink;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 a{
+    text-decoration: none;
+    color: #B5338A;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 35px;
+    padding: 15px 30px 30px 30px;
+}
+
+h1:hover{
+        scale(1);
+        animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+    }
+
+    70% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0.95);
+    }
+}
+
+div{
+    margin-top: 90px;
+    margin-left: 70px;
+    width: 25%;  
+    padding: 15px 30px 30px 30px;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 1;
+    background:#ffe8e4;
+}
+
+h3{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B5338A;
+    font-size: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+article{
+    position: relative;
+    flex-direction: row;
+
+}
+
+.entryleft{
+    width: 45%;  
+    margin: 10px;
+    padding: 15px 30px 30px 30px;
+    border-top: 5px solid #B5338A;
+    border-left: 6px solid #B5338A;
+    border-bottom: 14px solid #B5338A;
+    border-right: 14px solid #B5338A;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 1;
+    background: linear-gradient(#fcc5d2,#FDE9E2);
+    margin-left: 70px;
+}
+
+.entryright{
+    width: 45%; 
+    margin: 10px;
+    padding: 15px 30px 30px 30px;
+    border-top: 5px solid #B5338A;
+    border-left: 6px solid #B5338A;
+    border-bottom: 14px solid #B5338A;
+    border-right: 14px solid #B5338A;
+    text-align: center;
+    border-radius: 15px;
+    z-index: 1;
+    background: linear-gradient(#FDE9E2, #fcc5d2);
+    margin-right: 70px;
+}
+
+.chapter {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #B5338A;
+    font-size: 25px;
+}
+
+.name {
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #B5338A;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: italic;
+    color: #B5338A;
+    font-size: 19px;
+    text-align:left;
+    line-height: 1.6;
+}
+
+
+.imageleft{
+    z-index:2;
+}
+
+.imageright{
+    z-index: 2;
+}
+
+.sofa{
+    position: absolute;
+    top: 200px;
+    left: -500px;
+    z-index: 2;
+}
+
+.light{
+    position: absolute;
+    top: 100px;
+    right: -70px;
+    z-index: 2;
+}
+
+.tea{
+    position: absolute;
+    top: 250px;
+    left: 45px;
+    z-index: 2;
+    transform: rotate(5deg);
+}
+
+.sofa2{
+    position: absolute;
+    top: 200px;
+    right: -300px;
+    z-index: 2;
+    transform: rotateY(180deg);
+}
+
+.books2{
+    position: absolute;
+    top: 600px;
+    right: 200px;
+    z-index: 2;
+}
+
+.lamp{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    z-index: 2;
+    transform: rotate(-5deg);
+}
+
+.chair{
+    position: absolute;
+    top: 130px;
+    right: -450px;
+    z-index: 3;
+}
+
+.light2{
+    position: absolute;
+    top: 10px;
+    left: -615px;
+    z-index: 4;
+}
+
+.rug{ 
+    position: absolute;
+    top: 520px;
+    right: 230px;
+    z-index: 2;
+   
+}
+
+.books{
+    position: absolute;
+    top: 380px;
+    left: 90px;
+    z-index: 2;
+}
+
+.table{
+    position: absolute;
+    top: 290px;
+    right: -300px;
+    z-index: 2;
+}
+
+.lamp2{
+    position: absolute;
+    top: 130px;
+    right: 50px;
+    z-index: 3;
+}
+
+.tea2{
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    z-index: 2;
+    transform: rotate(-5deg);
+}
+
+
+.chair2{
+    position: absolute;
+    top: 100px;
+    right: -8px;
+    z-index: 2;
+}
+
+
+.table2{
+    position: absolute;
+    top: 100px;
+    left: -15px;
+    z-index: 2;
+    transform: rotate(3deg);
+}
+
+.tea3{
+    position: absolute;
+    top: 240px;
+    right: -145px;
+    z-index: 10;
+    transform: rotate(3deg);
+}
+
+.books3{
+    position: absolute;
+    top: 350px;
+    right: 100px;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
+
+footer{
+    margin-top: -400px;
+    margin-left: -130px;
+    z-index: 1;
+}
+
+.feedgif{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 300px;
+    z-index: 2;
+    transform: rotate(-5deg);
+
+}
+
+ h4{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 418px;
+    z-index: 2;
+    color: #B5338A;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    transform: rotate(-4deg);
+  }  
+  
+</html>

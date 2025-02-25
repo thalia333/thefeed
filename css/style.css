@@ -6,15 +6,39 @@
     
     <meta charset="UTF-8">
     
-    <title></title>
+    <title> </title>
 </head>
 
 <body>
 
-body{
+h1 {
+    text-align: center;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #B5338A;
+    padding: 15px 30px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+body {
     background-color: pink;
     background-size: cover;  
     background-repeat: no-repeat;
+    margin: 0;  
+    height: 100vh;  
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 </body>
